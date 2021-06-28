@@ -1,49 +1,37 @@
-
-TITLE: 
-Crew - Responsive Free HTML5 template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Story by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-CREDITS:
+Say hello to Story, a brand new responsive one-pager for HTML5 UP! Inspired by my work
+on Carrd*, Story is built to be extremely modular and tweakable, and as such is entirely
+built on reusable, insanely customizable elements (like "spotlight" and "gallery") that
+can be endlessly duplicated and tweaked into whatever you need to tell your story --
+without, in many cases, touching *any* CSS. Check out index-demo.html for an interactive
+demo, and index.html for the actual template. Enjoy!
 
-Bootstrap
-http://getbootstrap.com/
+Demo images** courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-jQuery
-http://jquery.com/
+PS: Delete index-demo.html and assets/js/demo.js when you're done messing with the demo
+as neither are needed in production :)
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+(* = my other side project -- carrd.co)
+(** = not included)
 
-Modernizr
-http://modernizr.com/
+AJ
+aj@lkn.io | @ajlkn
 
-Google Fonts
-https://www.google.com/fonts/
 
-Icomoon
-https://icomoon.io/app/
+Credits:
 
-Simple Line Icons
-https://github.com/thesabbir/simple-line-icons
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+	Icons:
+		Font Awesome (fontawesome.io)
 
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
-
-Styleswitcher for Demo
-https://github.com/camsjams/jquery-style-switcher
+	Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
