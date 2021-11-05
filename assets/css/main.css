@@ -115,6 +115,16 @@ input, select, textarea {
 
 /* Type */
 
+.background--light {
+	color: black;
+	font-weight: 900;
+}
+
+.background--dark {
+	color: black;
+	font-weight: 900;
+}
+
 	html {
 		font-size: 18pt;
 	}
@@ -3785,6 +3795,19 @@ input, select, textarea {
 				border-bottom-right-radius: 0;
 			}
 
+		.banner.style2.orient-top {
+			-moz-justify-content: -moz-flex-center;
+			-webkit-justify-content: -webkit-flex-center;
+			-ms-justify-content: -ms-flex-center;
+			justify-content: flex-center;
+			padding-right: 0;
+		}
+
+			.banner.style2.orient-right .content {
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+
 		.banner.style2.content-align-left {
 			text-align: left;
 		}
@@ -4255,11 +4278,7 @@ input, select, textarea {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		padding: 2rem 7rem 5rem 7rem ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4297,7 +4316,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			border-radius: 0;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 			.banner.style5 .image img {
@@ -5654,7 +5673,7 @@ input, select, textarea {
 	}
 
 		.spotlight.style5 .content {
-			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
+			padding: 5.5rem 5.5rem 1.5rem 5.5rem ;
 			position: relative;
 			width: 40rem;
 			max-width: 52.5%;

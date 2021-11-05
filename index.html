@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>10A</title>
+		<title>Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,13 +18,15 @@
 		<div id="wrapper" class="divided">
 
 			<!-- One -->
-			<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+			<section class="banner style5 orient-top fullscreen onload-image-fade-in onload-content-fade-right">
 				<div class="content">
-					<h1>10A</h1>
-					<p class="major">Eine Testinternetseite. 10a</p>
+			
+					<h1 class="target">10a</h1>
+					<p class="major target">2020/2021</p>
+				
 				</div>
-				<div class="image">
-					<img src="images/banner.jpg" alt="" />
+				<div class="image contrast-bg">
+					<img src="images/picclass01.jpeg" alt="" />
 				</div>
 			</section>
 
@@ -186,12 +188,12 @@
 			<footer class="wrapper style1 align-center">
 				<div class="inner">
 					<!--<ul class="icons">
-				<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-				<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
-			</ul>-->
+					<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+				</ul>-->
 					<p>&copy; 10a.   Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 				</div>
 				<p><a href="impressum.html">Impressum</a></p>
@@ -200,13 +202,27 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+
+		<script src="assets/js/background-check.min.js"></script>
+		<script>
+			// self executing function here
+			(function () {
+                // Check all elements with a .target class against all images on a page
+                BackgroundCheck.init({
+					targets: '.target',
+					minComplexity: 100
+				});
+                setInterval(function () { BackgroundCheck.refresh(); }, 5000);
+			})();
+		</script>
+
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
